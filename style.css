@@ -1,0 +1,35 @@
+/* I set the font family for the page */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* I set the max width, center the container, adds padding */
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* I style the task items with flexbox for layout and padding for spacing */
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* I style the input field and button, include padding and spacing */
+input[type="text"]{
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+}
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+    background-color: #ddd;
+}
