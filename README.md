@@ -8,6 +8,9 @@ A simple To-Do List application where you can add and remove tasks. Built using 
 - Remove tasks from the list.
 - Tasks are dynamically updated in the browser.
 
+## Preview
+![preview!](/preview.png)
+
 ## Technologies Used
 
 - **HTML:** For the structure of the application.
